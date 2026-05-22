@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --no-lint",
-    "start": "next start"
-  },
+  "dev": "next dev",
+  "build": "next build --no-lint --turbopack",
+  "start": "next start"
+},
   "dependencies": {
     "@consenlabs/tcx-wasm": "latest",
     "next": "14.2.35",
